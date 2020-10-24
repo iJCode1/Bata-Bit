@@ -1,0 +1,28 @@
+/* Creando las variables de CSS*/
+:root{
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black1: #282623;
+    --grey: #BABABA;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF;
+
+    --font-sanz: 'Dm Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+}
+
+/* Reseteando estilos por defecto*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Modificando Fuente y su tamaño*/
+html{
+    font-family: var(--font-sanz), sans-serif;
+    font-size: 62.5%;
+}
