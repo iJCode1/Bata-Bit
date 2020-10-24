@@ -26,3 +26,80 @@ html{
     font-family: var(--font-sanz), sans-serif;
     font-size: 62.5%;
 }
+
+/* Dando estilos al Header*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 333px;
+    position: relative;
+    background: linear-gradient(207.8deg, var(--warm-black) 16.69%, var(--bitcoin-orange) 100%);
+}
+
+.header__img--container{
+    margin-top: 40px;
+}
+
+.header__img{
+    width: 150px;
+    height: 24px;
+    align-self: center;
+}
+
+.header__title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header__title h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header__title p{
+    margin-top: 24px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-style: normal;
+    color: var(--soft-orange);
+}
+
+.header__button{
+    display: block;
+    width: 229px;
+    height: 48px;
+    margin-top: 35px;
+    padding: 15px;
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 114.8px);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--off-white);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--warm-black);
+    font-weight: bold;
+}
+
+.header__button span{
+    display: inline-block;
+    background-image: url('../assets/icons/vector.svg');
+    width: 13px;
+    height: 8px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
