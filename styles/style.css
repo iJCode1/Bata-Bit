@@ -238,3 +238,22 @@ main{
 .border__bottom--left{
     border-radius: 0 0 0 8px;
 }
+
+.currency__date{
+    background-color: var(--soft-orange);
+    width: 190px;
+    height: 31px;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 8px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 19.36px;
+    margin-top: 15px;
+}
+
+
+.currency__date span{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
