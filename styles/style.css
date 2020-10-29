@@ -9,7 +9,6 @@
     --grey: #BABABA;
     --off-white: #FAF8F7;
     --just-white: #FFFFFF;
-
     --font-sanz: 'Dm Sans', sans-serif;
     --font-inter: 'Inter', sans-serif;
 }
@@ -115,6 +114,7 @@ main{
     background-color: var(--off-white);
     padding-top: 6rem;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 .background__imageContainer{
@@ -147,4 +147,94 @@ main{
     line-height: 1.8rem;
     color: #757575;
     margin-top: 2.4rem;
+}
+
+
+.currency__container{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.currency__title{
+    color: var(--bitcoin-orange);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    line-height: 2.34rem;
+    margin-top: 4.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.currency__table__container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.currency__table__container table{
+    width: 100%;
+    height: 100%;
+}
+
+.currency__table__container td{
+    width: 50%;
+    font-family: var(--font-inter), sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 19.36px;
+    background-color: var(--just-white);
+    padding: 1rem 1.2rem;
+}
+
+.coin{
+    color: var(--grey);
+}
+
+.table__right{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 16.94px;
+    color: #757575;
+}
+
+.trending__down{
+    display: inline-block;
+    background-image: url("../assets/icons/trending-down.svg");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1.8rem;
+}
+
+.trending__up{
+    display: inline-block;
+    background-image: url("../assets/icons/trending-up.svg");
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1.8rem;
+}
+
+.border__top--left{
+    border-radius: 8px 0 0 0;
+}
+
+.border__top--right{
+    border-radius: 0 8px 0 0;
+}
+
+.border__bottom--right{
+    border-radius: 0 0 8px 0;
+}
+
+.border__bottom--left{
+    border-radius: 0 0 0 8px;
 }
