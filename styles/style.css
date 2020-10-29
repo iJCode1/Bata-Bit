@@ -242,7 +242,6 @@ main{
 .currency__date{
     background-color: var(--soft-orange);
     width: 190px;
-    height: 31px;
     border-radius: 8px;
     margin: 0 auto;
     padding: 8px;
@@ -259,7 +258,7 @@ main{
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
-    margin-top: 4.8rem;
+    margin-top: 4rem;
 }
 
 .commissions__title{
@@ -295,8 +294,11 @@ main{
 
 .commissions__date{
     background-color: var(--soft-blue);
-    padding: 8px;
+    margin: 0 auto;
     margin-top: 16px;
+    border-radius: 8px;
+    width: 190px;
+    padding: 8px;
 }
 
 .commissions__date p{
