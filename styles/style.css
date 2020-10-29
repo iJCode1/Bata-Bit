@@ -174,6 +174,7 @@ main{
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
+    font-family: var(--font-inter), sans-serif;
 }
 
 .currency__table__container table{
@@ -183,7 +184,6 @@ main{
 
 .currency__table__container td{
     width: 50%;
-    font-family: var(--font-inter), sans-serif;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 19.36px;
@@ -192,7 +192,7 @@ main{
 }
 
 .coin{
-    color: var(--grey);
+    color: #B5B0AC;
 }
 
 .table__right{
@@ -246,14 +246,10 @@ main{
     border-radius: 8px;
     margin: 0 auto;
     padding: 8px;
-    font-weight: 700;
     font-size: 1.2rem;
     line-height: 19.36px;
     margin-top: 15px;
+    font-family: var(--font-inter), sans-serif;
 }
 
 
-.currency__date span{
-    font-size: 1.6rem;
-    font-weight: bold;
-}
