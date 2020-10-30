@@ -308,3 +308,113 @@ main{
     line-height: 14.52px;
     font-family: var(--font-inter), sans-serif;
 }
+
+/*------------------- Product ------------------*/
+
+.main__product--container{
+    background-color: var(--warm-black);
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.main__product--logo{
+    display: inline-block;
+    background-image: url('../assets/icons/papa.svg');
+    width: 40px;
+    height: 24px;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 23px);
+}
+
+.main__product--hero{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.main__product--title{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    padding-top: 6rem;
+}
+
+.main__title--paragraph{
+    font-weight: 500;
+    font-style: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 2.4rem;
+    color: #808080;
+    margin-bottom: 3.2rem;
+}
+
+.main__product--cards{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.main__product--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    background-color: var(--warm-black1);
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding: 16px 16px 22px 16px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product__card--title{
+    font-weight: 700;
+    font-style: none;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: var(--just-white);
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.product__card--description{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 18px;
+    color: #808080;
+}
+
+.product__card--clock, .product__card--eye, .product__card--dollar, .product__card--check-circle{
+    display: inline-block;
+    width:24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.product__card--clock{
+    background-image: url("../assets/icons/clock.svg");
+}
+
+.product__card--eye{
+    background-image: url("../assets/icons/eye.svg");
+}
+
+.product__card--dollar{
+    background-image: url("../assets/icons/dollar-sign.svg");
+}
+
+.product__card--check-circle{
+    background-image: url("../assets/icons/check-circle.svg");
+}
