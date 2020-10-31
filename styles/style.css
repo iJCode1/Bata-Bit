@@ -418,3 +418,23 @@ main{
 .product__card--check-circle{
     background-image: url("../assets/icons/check-circle.svg");
 }
+
+.main__image--container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("../assets/images/bitcoinbaby.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main__image--container h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    padding-top: 6.5rem;
+}
