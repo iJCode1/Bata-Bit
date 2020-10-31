@@ -444,14 +444,15 @@ main{
     width: 100%;
     min-width: 320px;
     background-color: var(--off-white);
-    padding-top: 6.4rem;
 }
 
 .plans--primary-text{
     width: 90%;
     min-width: 288px;
+    height: auto;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 5rem;
 }
 
 .plans--title{
@@ -460,6 +461,7 @@ main{
     font-size: 2.4rem;
     line-height: 2.6rem;
     color: var(--warm-black);
+    padding-top: 6rem;
 }
 
 .plans--description{
@@ -468,23 +470,41 @@ main{
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: #757575;
-    margin-top: 2.4rem;
-    margin-bottom: 5rem;
+    padding-top: 2.4rem;
 }
 
 .plans__card--container{
     width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: auto;
     margin: 0 auto;
     background-color: var(--just-white);
     padding: 24px 16px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    border-radius: 8px;
+    border-radius: 15px;
     text-align: center;
+    margin-bottom: 64px;
 }
 
-.plans__card--container .plans__annual{
-
+.plans--annual{
+    position: relative;
 }
+
+.plans--recommended{
+    background-color: var(--bitcoin-orange);
+    padding: 8px 8px;
+    border-radius: 8px;
+    position: absolute;
+    top: -15px;
+    left: calc(50% - 100px/2);
+    color: var(--just-white);
+    font-family: var(--font-inter), "sans-serif";
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 14.52px;
+}
+
 
 .card--content h3{
     font-weight: 500;
