@@ -572,3 +572,17 @@ main{
     vertical-align: middle;
     margin-left: .8rem;
 }
+
+/*------------- Scroll Horizontal -------------------*/
+.plans__container--slides{
+    display: flex;
+    padding: 2rem 0;
+    overflow-x: scroll; /*Trabajmos con el Overflow que genera horizontalmente*/
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.plans__card--container{
+    scroll-snap-align: center;
+    margin: 50px 30px 0;
+}
