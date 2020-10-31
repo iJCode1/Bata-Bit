@@ -24,6 +24,7 @@
 html{
     font-family: var(--font-sanz), sans-serif;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 /* Dando estilos al Header*/
@@ -435,4 +436,106 @@ main{
     line-height: 2.6rem;
     color: var(--just-white);
     padding-top: 6.5rem;
+}
+
+/*-------------------- Planes --------------------*/
+
+.main__plans--container{
+    width: 100%;
+    min-width: 320px;
+    background-color: var(--off-white);
+    padding-top: 6.4rem;
+}
+
+.plans--primary-text{
+    width: 90%;
+    min-width: 288px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plans--title{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+}
+
+.plans--description{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #757575;
+    margin-top: 2.4rem;
+    margin-bottom: 5rem;
+}
+
+.plans__card--container{
+    width: 70%;
+    margin: 0 auto;
+    background-color: var(--just-white);
+    padding: 24px 16px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.plans__card--container .plans__annual{
+
+}
+
+.card--content h3{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #000000;
+}
+
+.card--content .card--price{
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 42.93px;
+}
+
+.card--content .plans--small{
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: text-top;
+}
+
+.card--content .card--compared{
+    font-weight: 500;
+    font-family: var(--font-inter), "sans-serif";
+    font-size: 1.2rem;
+    line-height: 14.53px;
+    color: #757575;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.card--content button{
+    width: 150px;
+    height: 48px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    line-height: 18.23px;
+    text-align: center;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.card--content button > span{
+    background-image: url("../assets/icons/arrow-right.svg");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    margin-left: .8rem;
 }
