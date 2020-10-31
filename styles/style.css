@@ -444,6 +444,7 @@ main{
     width: 100%;
     min-width: 320px;
     background-color: var(--off-white);
+    padding-bottom: 6.4rem;
 }
 
 .plans--primary-text{
@@ -480,7 +481,6 @@ main{
     height: auto;
     margin: 0 auto;
     background-color: var(--just-white);
-    padding: 24px 16px;
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
     border-radius: 15px;
     text-align: center;
@@ -493,11 +493,13 @@ main{
 
 .plans--recommended{
     background-color: var(--bitcoin-orange);
-    padding: 8px 8px;
+    width: 101px;
+    height: 31px;
+    padding: 8px;
     border-radius: 8px;
     position: absolute;
     top: -15px;
-    left: calc(50% - 100px/2);
+    left: calc(50% - 101px/2);
     color: var(--just-white);
     font-family: var(--font-inter), "sans-serif";
     font-weight: 700;
@@ -505,25 +507,31 @@ main{
     line-height: 14.52px;
 }
 
+.card--content{
+    padding: 0 16px;
+}
 
 .card--content h3{
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;
     font-size: 1.4rem;
     line-height: 1.8rem;
     color: #000000;
+    padding-top: 3rem;
 }
 
 .card--content .card--price{
     font-weight: 700;
     font-size: 5.2rem;
-    line-height: 42.93px;
+    position: relative;
 }
 
 .card--content .plans--small{
     font-weight: 500;
     font-size: 12px;
-    vertical-align: text-top;
+    position: absolute;
+    top: 12px;
+    left: calc(35% - 8px);
 }
 
 .card--content .card--compared{
@@ -537,15 +545,20 @@ main{
 }
 
 .card--content button{
+    font-family: var(--font-sanz), "sans-serif";
     width: 150px;
     height: 48px;
     background-color: var(--off-white);
     border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
     font-size: 1.4rem;
     line-height: 18.23px;
     text-align: center;
     font-weight: 700;
     vertical-align: middle;
+    margin-bottom: 24px;
+    cursor: pointer;
+    outline: none;
 }
 
 .card--content button > span{
