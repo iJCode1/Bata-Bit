@@ -453,7 +453,6 @@ main{
     height: auto;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 5rem;
 }
 
 .plans--title{
@@ -576,7 +575,7 @@ main{
 /*------------- Scroll Horizontal -------------------*/
 .plans__container--slides{
     display: flex;
-    padding: 2rem 0;
+    padding: 1rem 0;
     overflow-x: scroll; /*Trabajmos con el Overflow que genera horizontalmente*/
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
