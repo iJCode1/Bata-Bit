@@ -317,7 +317,7 @@ main{
     min-width: 320px;
     height: auto;
     position: relative;
-    padding: 20px 10px;
+    padding: 64px 16px 47px 16px;
 }
 
 .main__product--logo{
@@ -345,7 +345,6 @@ main{
     font-size: 2.4rem;
     line-height: 2.6rem;
     color: var(--just-white);
-    padding-top: 6rem;
 }
 
 .main__title--paragraph{
@@ -361,14 +360,13 @@ main{
 .main__product--cards{
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 40px;
 }
 
 .main__product--card{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     background-color: var(--warm-black1);
     margin: 0 auto;
     margin-bottom: 16px;
