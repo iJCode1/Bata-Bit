@@ -524,6 +524,8 @@ main{
 
 .card--content{
     padding: 0 16px;
+    height: 270px;
+    position: relative;
 }
 
 .card--content h3{
@@ -574,6 +576,9 @@ main{
     margin-bottom: 24px;
     cursor: pointer;
     outline: none;
+    position: absolute;
+    bottom: calc(16% - 48px);
+    left: calc(90% - 150px);
 }
 
 .card--content button > span{
