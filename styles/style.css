@@ -269,7 +269,6 @@ main{
     min-width: 288px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
     margin-top: 4rem;
     scroll-snap-align: center;
     padding-right: 20px;
@@ -334,7 +333,7 @@ main{
     min-width: 320px;
     height: auto;
     position: relative;
-    padding: 64px 16px 47px 16px;
+    padding: 64px 16px 30px 16px;
 }
 
 .main__product--logo{
@@ -492,7 +491,7 @@ main{
 .plans__card--container{
     width: 70%;
     min-width: 190px;
-    max-width: 300px;
+    max-width: 230px;
     height: auto;
     margin: 0 auto;
     background-color: var(--just-white);
@@ -578,7 +577,7 @@ main{
     outline: none;
     position: absolute;
     bottom: calc(16% - 48px);
-    left: calc(90% - 150px);
+    left: calc(50% - 150px/2);
 }
 
 .card--content button > span{
