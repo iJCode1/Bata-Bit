@@ -585,3 +585,42 @@ main{
     scroll-snap-align: center;
     margin: 50px 10px 0px;
 }
+
+/*--------------------- Footer --------------------------*/
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 65px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    padding: 4px 0;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: var(--just-white);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    
+}
+
+
+.logo--copy{
+    font-family: var(--font-inter), "sans-serif";
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 18px;
+    text-align:center;
+    color: var(--soft-orange);
+}
